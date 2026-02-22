@@ -20,9 +20,6 @@ build/
 .env.*
 *.local
 
-# Offline datasets (IMPORTANT for your project)
-src/data/offlineCrops.json
-
 # OS files
 .DS_Store
 Thumbs.db
