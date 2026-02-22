@@ -1,0 +1,100 @@
+
+.crop-details-page{
+  min-height: 100vh;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: linear-gradient(180deg,#f7f9f2,#fbfbf6);
+}
+
+/* CARD */
+
+.crop-card{
+  width: 100%;
+  max-width: 900px;
+  padding: 40px 42px;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 20px 45px rgba(0,0,0,0.12);
+}
+
+/* TITLE */
+
+.crop-card h2{
+  font-size: 34px;
+  font-weight: 800;
+  color: #1b2e1b;      /* dark */
+  margin-bottom: 8px;
+  opacity: 1;
+}
+
+/* SUBTITLE */
+
+.crop-card .subtitle{
+  font-size: 15px;
+  color: #374151;     /* dark grey */
+  margin-bottom: 28px;
+  opacity: 1;
+}
+
+/* FORM GRID */
+
+.form-grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 18px 22px;
+}
+
+/* EACH FIELD */
+
+.form-grid > div{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #1f2937;     /* dark label */
+}
+
+/* INPUTS */
+
+.form-grid input,
+.form-grid select{
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1.5px solid #cbd5e1;
+  font-size: 14px;
+  color: #111827;
+  background: #ffffff;
+  outline: none;
+}
+
+.form-grid input::placeholder{
+  color: #6b7280;
+}
+
+/* last row full width */
+
+.form-grid > div:last-child{
+  grid-column: 1 / -1;
+}
+
+/* BUTTON */
+
+.crop-card button{
+  margin-top: 26px;
+  width: 100%;
+  padding: 13px 16px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  background: linear-gradient(90deg,#2f6f3e,#d4af37);
+}
+
+.crop-card button:hover{
+  opacity: 0.95;
+}
